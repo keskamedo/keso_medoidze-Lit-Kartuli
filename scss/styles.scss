@@ -706,9 +706,9 @@ p {
     border-bottom: 3px solid $headline;
     padding-bottom: 10px;
   }
-} // Close .main here
+} 
 
-// Move these outside of .main
+
 .row {
   @include flex();
   flex-wrap: wrap;
