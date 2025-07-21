@@ -57,7 +57,6 @@
       <h4>მგზავრის წერილები</h4>
     </div>
   </div>
-<div class="row">
   <div class="column Prose">
     <div class="content-production">
       <img src="images/otaraant qvrivi wigni.jpg" alt="Prose">
@@ -70,7 +69,6 @@
       <h4>სარჩობელაზედ?!</h4>
     </div>
   </div>
-
   <div class="column Poetry">
     <div class="content-production">
     <img src="images/leqsebi.png" alt="Poetry" >
@@ -107,63 +105,60 @@
       <h4>დედავ ღვთისაო! ეს ქვეყანა ...</h4>
     </div>
   </div>
-
-
-
-
   <div class="column Journalism">
     <div class="content-production">
       <img src="images/journalism.jpg" alt="Journalism">
-      <h4>აკაკი წერეთელი და „ვეფხვის-ტყაოსანი“</h4>
+      <h4>აკაკი წერეთელი და „ვეფხვის-ტყაოსანი"</h4>
     </div>
   </div>
- <div class="column Journalism">
+  <div class="column Journalism">
     <div class="content-production">
       <img src="images/journalism.jpg" alt="Journalism">
       <h4>ახალი დრამების გამო</h4>
     </div>
   </div>
- <div class="column Journalism">
+  <div class="column Journalism">
     <div class="content-production">
       <img src="images/journalism.jpg" alt="Journalism">
-      <h4>გაბრიელ სუნდუკიანცის „პეპო“ და სომხის ლიტერატორები</h4>
+      <h4>გაბრიელ სუნდუკიანცის „პეპო" და სომხის ლიტერატორები</h4>
     </div>
   </div>
-   <div class="column Journalism">
+  <div class="column Journalism">
     <div class="content-production">
       <img src="images/journalism.jpg" alt="Journalism">
-      <h4>გოგოლის „რევიზორის“ საიუბილეოდ</h4>
+      <h4>გოგოლის „რევიზორის" საიუბილეოდ</h4>
     </div>
   </div>
-   <div class="column Journalism">
+  <div class="column Journalism">
     <div class="content-production">
       <img src="images/journalism.jpg" alt="Journalism">
       <h4>პოეზიის ახალგაზრდა მოყვარულთ</h4>
     </div>
   </div>
-   <div class="column Journalism">
+  <div class="column Journalism">
     <div class="content-production">
       <img src="images/journalism.jpg" alt="Journalism">
       <h4>ჩვენი ლიტერატურის დღევანდელი ყოფა</h4>
     </div>
   </div>
-<!-- END gallery -->
 </div>
+
+<!-- END gallery -->
 
 <!-- END MAIN -->
 </div>
 
         <!-- FOOTERI -->
-     <footer>
+    <footer>
         <div class="footer-container">
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>ლიტერატურული მემკვიდრეობა</h3>
                     <p>ილია ჭავჭავაძის შემოქმედება წარმოადგენს ქართული ლიტერატურის ოქროს ფონდს. მისი ნაწარმოებები დღესაც ინსპირაციის წყაროა ახალი თაობისთვის.</p>
                     <ul>
-                        <li>პოეტური ნაწარმოებები</li>
-                        <li>პროზაული ტექსტები</li>
-                        <li>პუბლიცისტური სტატიები</li>
+                        <li><a href="interaction.html">ინტერაქცია</a></li>
+                        <li><a href="media.html">მედიატეკა</a></li>
+                        <li><a href="contact.html">დაგვიკავშირდით</a></li>
                         <li><a href="translation.html">ხმა საზღვრებს გარეშე</a></li>
                     </ul>
                 </div>
@@ -171,11 +166,11 @@
                 <div class="footer-section">
                     <h3>სწრაფი ნავიგაცია</h3>
                     <ul>
-                        <li><a href="index.html">მთავარი</a></li>
+                        <li><a class="active" href="index.html">მთავარი</a></li>
                         <li><a href="cinematography.html">კინემატოგრაფია</a></li>
                         <li><a href="about_us.html">ჩვენს შესახებ</a></li>
                         <li><a href="biography.html">ბიოგრაფია</a></li>
-                        <li><a class="active" href="productions.html">ნაწარმოებები</a></li>
+                        <li><a href="productions.html">ნაწარმოებები</a></li>
                     </ul>
                 </div>
 
@@ -199,7 +194,7 @@
                 </div>
             </div>
         </div>
-</footer>
+        </footer>
     <script>
 filterSelection("all")
 function filterSelection(c) {
@@ -233,14 +228,16 @@ function w3RemoveClass(element, name) {
   element.className = arr1.join(" ");
 }
 
-
-// Add active class to the current button (highlight it)
+// Add active class to the current button
 var btnContainer = document.getElementById("myBtnContainer");
 var btns = btnContainer.getElementsByClassName("btn");
 for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function(){
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
+    // Remove active class from all buttons specifically
+    for (var j = 0; j < btns.length; j++) {
+      btns[j].className = btns[j].className.replace(" active", "");
+    }
+    // Add active class to clicked button
     this.className += " active";
   });
 }

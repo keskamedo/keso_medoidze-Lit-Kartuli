@@ -145,7 +145,7 @@ header nav ul li a::before {
   left: 50%;
   width: 0;
   height: 2px;
-  background: linear-gradient(90deg, #FFD700, #FFA500);
+  background: linear-gradient(90deg, gold, #FFA500);
   transition: all 0.3s ease;
   transform: translateX(-50%);
 }
@@ -153,11 +153,11 @@ header nav ul li a:hover::before, header nav ul li a.active::before {
   width: 80%;
 }
 header nav ul li a:hover {
-  color: #FFD700;
+  color: gold;
   transform: translateY(-2px);
 }
 header nav ul li a.active {
-  color: #FFD700;
+  color: gold;
   font-weight: 600;
 }
 header .btn {
@@ -168,7 +168,6 @@ header .btn {
   border: none;
   border-radius: 50px;
   font-size: 17.6px;
-  font-family: "BPG QuadroSquare", "Sylfaen", "Arial Unicode MS", sans-serif;
   cursor: pointer;
   transition: all 0.3s ease;
   box-shadow: 0 5px 15px rgba(94, 85, 40, 0.5);
@@ -216,16 +215,16 @@ header .btn:hover {
   border-color: rgba(255, 215, 0, 0.5);
 }
 .content-section .intro-section h2 {
-  font-size: 2.8rem;
+  font-size: 44.8px;
   font-weight: 700;
   margin-bottom: 30px;
-  color: #FFD700;
+  color: gold;
   text-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
   position: relative;
   z-index: 1;
 }
 .content-section .intro-section p {
-  font-size: 1.2rem;
+  font-size: 19, 2px;
   line-height: 1.8;
   margin-bottom: 20px;
   color: #e0e0e0;
@@ -233,7 +232,7 @@ header .btn:hover {
   z-index: 1;
 }
 .content-section .intro-section a {
-  color: #FFD700;
+  color: gold;
   text-decoration: none;
   font-weight: 600;
   transition: all 0.3s ease;
@@ -245,10 +244,10 @@ header .btn:hover {
   text-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
 }
 .content-section .section-title {
-  font-size: 3rem;
+  font-size: 48px;
   font-weight: 700;
   margin-bottom: 60px;
-  color: #FFD700;
+  color: gold;
   text-align: center;
   position: relative;
   text-shadow: 0 0 30px rgba(255, 215, 0, 0.5);
@@ -261,7 +260,7 @@ header .btn:hover {
   transform: translateX(-50%);
   width: 120px;
   height: 4px;
-  background: linear-gradient(135deg, #FFD700, #FFA500);
+  background: linear-gradient(135deg, gold, #FFA500);
   border-radius: 2px;
   box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
 }
@@ -319,7 +318,7 @@ header .btn:hover {
   transform: translateY(0);
 }
 .content-section .cards-grid .card:hover .card-icon {
-  background: #FFD700;
+  background: gold;
   transform: rotate(360deg) scale(1.1);
   box-shadow: 0 6px 20px rgba(255, 215, 0, 0.6);
 }
@@ -363,7 +362,7 @@ header .btn:hover {
 }
 .content-section .cards-grid .card .card-overlay-text {
   color: white;
-  font-size: 1.1rem;
+  font-size: 17.6px;
   text-align: center;
   line-height: 1.6;
   font-style: italic;
@@ -385,7 +384,7 @@ header .btn:hover {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  font-size: 1.3rem;
+  font-size: 20.8px;
   z-index: 3;
   transition: all 0.4s ease;
   box-shadow: 0 4px 15px rgba(255, 215, 0, 0.4);
@@ -396,16 +395,16 @@ header .btn:hover {
   z-index: 2;
 }
 .content-section .cards-grid .card .card-title {
-  font-size: 1.6rem;
+  font-size: 25.6px;
   font-weight: 700;
-  color: #FFD700;
+  color: gold;
   margin-bottom: 20px;
   text-align: center;
   text-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
   transition: all 0.3s ease;
 }
 .content-section .cards-grid .card .card-description {
-  font-size: 1rem;
+  font-size: 16px;
   line-height: 1.7;
   color: #d0d0d0;
   text-align: justify;
@@ -419,7 +418,7 @@ section .gallery-carousel h2 {
   font-size: 40px;
   font-family: "BPG QuadroSquare", "Sylfaen", "Arial Unicode MS", sans-serif;
   margin-bottom: 32px;
-  color: #FFD700;
+  color: gold;
   text-align: center;
 }
 section .gallery-carousel p {
@@ -465,7 +464,7 @@ footer .footer-container .footer-content {
   margin-bottom: 50px;
 }
 footer .footer-container .footer-content .footer-section h3 {
-  color: #FFD700;
+  color: gold;
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 25px;
@@ -478,7 +477,7 @@ footer .footer-container .footer-content .footer-section h3::after {
   left: 0;
   width: 50px;
   height: 2px;
-  background: linear-gradient(135deg, #FFD700, #FFA500);
+  background: linear-gradient(135deg, gold, #FFA500);
 }
 footer .footer-container .footer-content .footer-section p,
 footer .footer-container .footer-content .footer-section li {
@@ -499,7 +498,7 @@ footer .footer-container .footer-content .footer-section ul li a {
 }
 footer .footer-container .footer-content .footer-section ul li:hover {
   padding-left: 10px;
-  color: #FFD700;
+  color: gold;
 }
 
 .social-icons {
@@ -522,7 +521,7 @@ footer .footer-container .footer-content .footer-section ul li:hover {
   background: linear-gradient(135deg, rgba(255, 215, 0, 0.2), rgba(255, 165, 0, 0.2));
   border: 2px solid rgba(255, 215, 0, 0.3);
   border-radius: 50%;
-  color: #FFD700;
+  color: gold;
   font-size: 20px;
   transition: all 0.4s ease;
   text-decoration: none;
@@ -536,7 +535,7 @@ footer .footer-container .footer-content .footer-section ul li:hover {
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, #FFD700, #FFA500);
+  background: linear-gradient(135deg, gold, #FFA500);
   transition: left 0.4s ease;
   z-index: -1;
 }
@@ -656,23 +655,56 @@ footer .footer-container .footer-content .footer-section ul li:hover {
 }
 .container .content .card-k {
   float: left;
-  width: 33.3%;
+  width: 33.33%;
   margin-bottom: 16px;
   padding: 0 8px;
+  transition: transform 0.3s ease;
 }
-.container .content .card-k p {
+.container .content .card-k :hover {
+  transform: translateY(-5px);
+}
+.container .content .card-k .card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+.container .content .card-k .card .card:hover {
+  box-shadow: 0 8px 32px rgba(255, 215, 0, 0.2);
+  transform: scale(1.02);
+}
+.container .content .card-k .card img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: transform 0.3s ease;
+}
+.container .content .card-k .card :hover img {
+  transform: scale(1.05);
+}
+.container .content .card-k .card p {
   text-align: center;
+  padding: 15px;
+  margin: 0;
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
 }
 
 .main {
+  font-family: "Roboto", sans-serif;
   margin: auto;
   background-color: #000000;
-  color: #FFD700;
+  color: gold;
 }
 .main h1 {
   font-size: 50px;
   text-align: center;
-  color: #FFD700;
+  color: gold;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   font-weight: bold;
   margin-bottom: 20px;
@@ -681,8 +713,8 @@ footer .footer-container .footer-content .footer-section ul li:hover {
   text-align: center;
   font-size: 40px;
   margin-bottom: 40px;
-  color: #FFD700;
-  border-bottom: 3px solid #FFD700;
+  color: gold;
+  border-bottom: 3px solid gold;
   padding-bottom: 10px;
 }
 
@@ -718,7 +750,7 @@ footer .footer-container .footer-content .footer-section ul li:hover {
   flex-direction: column;
   gap: 0;
   background-color: #1a1a1a;
-  border: 2px solid #FFD700;
+  border: 2px solid gold;
   border-radius: 10px;
   padding: 20px;
   transition: all 0.3s ease;
@@ -728,7 +760,7 @@ footer .footer-container .footer-content .footer-section ul li:hover {
 .content-production:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(255, 215, 0, 0.2);
-  border-color: #FFD700;
+  border-color: gold;
   background-color: rgba(255, 215, 0, 0.1);
 }
 .content-production img {
@@ -739,7 +771,7 @@ footer .footer-container .footer-content .footer-section ul li:hover {
      object-fit: cover;
   border-radius: 8px;
   margin-bottom: 15px;
-  border: 1px solid #FFD700;
+  border: 1px solid gold;
   transition: all 0.3s ease;
 }
 .content-production img:hover {
@@ -752,7 +784,7 @@ footer .footer-container .footer-content .footer-section ul li:hover {
   align-items: center;
   flex-direction: row;
   gap: 0;
-  color: #FFD700;
+  color: gold;
   font-size: 19px;
   margin-bottom: 10px;
   font-weight: bold;
@@ -773,11 +805,11 @@ footer .footer-container .footer-content .footer-section ul li:hover {
   margin-bottom: 40px;
 }
 #myBtnContainer .btn {
-  border: 2px solid #FFD700;
+  border: 2px solid gold;
   outline: none;
   padding: 12px 16px;
   background-color: #1a1a1a;
-  color: #FFD700;
+  color: gold;
   cursor: pointer;
   font-size: 16px;
   font-weight: bold;
@@ -786,13 +818,13 @@ footer .footer-container .footer-content .footer-section ul li:hover {
   margin: 0 5px;
 }
 #myBtnContainer .btn:hover {
-  background-color: #FFD700;
+  background-color: gold;
   color: #000000;
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(255, 215, 0, 0.3);
 }
 #myBtnContainer .btn.active {
-  background-color: #FFD700;
+  background-color: gold;
   color: #000000;
   box-shadow: 0 4px 8px rgba(255, 215, 0, 0.3);
 }
@@ -808,7 +840,7 @@ footer .footer-container .footer-content .footer-section ul li:hover {
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-  border: 2px solid #ffd700;
+  border: 2px solid gold;
 }
 .container-fluid .carousel-container .carousel .carousel-item {
   height: 500px;
@@ -836,7 +868,7 @@ footer .footer-container .footer-content .footer-section ul li:hover {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   max-width: 800px;
   margin: 0 auto;
-  color: #ffd700;
+  color: gold;
 }
 .container-fluid .carousel-container .carousel .carousel-control-prev,
 .container-fluid .carousel-container .carousel .carousel-control-next {
@@ -854,13 +886,13 @@ footer .footer-container .footer-content .footer-section ul li:hover {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  border: 2px solid #ffd700;
+  border: 2px solid gold;
   opacity: 0.6;
   background-color: black;
 }
 .container-fluid .carousel-container .carousel .carousel-indicators button.active {
   opacity: 1;
-  background-color: #ffd700;
+  background-color: gold;
 }
 
 aside {
@@ -923,7 +955,7 @@ aside .aside-container .film-section .film-card p {
   transition: color 0.3s ease;
 }
 aside .aside-container .film-section .film-card p:hover {
-  color: #ffd700;
+  color: gold;
 }
 aside .aside-container .film-section .film-card p::first-letter {
   font-size: 50px;
@@ -954,7 +986,7 @@ aside .aside-container .film-section .film-card .film-icon {
   width: 80px;
   height: 80px;
   margin: 0 auto 16px;
-  background: linear-gradient(45deg, #ff6b6b, #ffd700, #4ecdc4);
+  background: linear-gradient(45deg, #ff6b6b, gold, #4ecdc4);
   border-radius: 50px;
   font-size: 36px;
   color: white;
@@ -1043,7 +1075,7 @@ aside .aside-container .film-section .film-card .film-icon:hover {
 .gallery-carousel .slick-prev:hover,
 .gallery-carousel .slick-next:hover {
   background: #fff;
-  border-color: #ffd700;
+  border-color: gold;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
   transform: scale(1.1);
 }

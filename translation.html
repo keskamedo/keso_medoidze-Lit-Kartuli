@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
     <link rel="icon" type="image/x-icon" href="images/icons/L&K.png" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -119,11 +122,11 @@
                 <div class="footer-section">
                     <h3>სწრაფი ნავიგაცია</h3>
                     <ul>
-                        <li><a href="index.html">მთავარი</a></li>
+                        <li><a class="active" href="index.html">მთავარი</a></li>
                         <li><a href="cinematography.html">კინემატოგრაფია</a></li>
-                         <li><a href="about_us.html">ჩვენს შესახებ</a></li>
+                        <li><a href="about_us.html">ჩვენს შესახებ</a></li>
                         <li><a href="biography.html">ბიოგრაფია</a></li>
-                        <li><a class="active" href="productions.html">ნაწარმოებები</a></li>
+                        <li><a href="productions.html">ნაწარმოებები</a></li>
                     </ul>
                 </div>
 
@@ -147,7 +150,7 @@
                 </div>
             </div>
         </div>
-</footer>
+        </footer>
     <script>
 filterSelection("all")
 function filterSelection(c) {
@@ -182,7 +185,7 @@ function w3RemoveClass(element, name) {
 }
 
 
-// Add active class to the current button (highlight it)
+// Add active class to the current button 
 var btnContainer = document.getElementById("myBtnContainer");
 var btns = btnContainer.getElementsByClassName("btn");
 for (var i = 0; i < btns.length; i++) {
